@@ -57,7 +57,7 @@ The dataset introduced in the paper was build from scraping the [mediabiasfactch
 |hawarnews.org|syria|far left|low|total oppression|news agency|medium traffic|low credibility|
 |...||||||||
 
-In this repo we also release the script to scrape [mediabiasfactcheck.com](https://mediabiasfactcheck.com) to generate a more up-to-date version of the datasets when needed:
+In this repo we also release the script we used to scrape [mediabiasfactcheck.com](https://mediabiasfactcheck.com) so that it can be used to generate a more up-to-date version of the datasets when needed, as follows:
 1. Make sure you have the required packages first with `pip install -r requirements.txt`, then
 1. Run `python scrape_mbfc.py` to scrape again the webpage and generate a more up-to-date version of `data/mbfc_raw.csv` (a timestamp will be added at the end of the name to prevent overwriting the original previous versions).
 2. Run `python create_dataset.py -i data/mbfc_raw.csv -o data/news_media_bias_and_factuality-new.csv` to create the new version of the dataset described in the paper (`data/news_media_bias_and_factuality-new.csv`).
@@ -77,7 +77,7 @@ Now we need to clone the [Reliability Estimation of News Media Sources: "Birds o
 git clone git@github.com:idiap/News-Media-Reliability.git
 cd News-Media-Reliability
 ```
-And then we use our ground truth rewards to compute the scores and perform the 5-fold cross validation using the original `ccnews_create_graph_clef.py` script in the repo following the original README file instruction but using our own ground truth rewards files:
+And then we use our ground truth rewards to compute the scores and perform the 5-fold cross validation using the original `ccnews_create_graph_clef.py` script in the repo following the original README file instructions but using our own ground truth rewards files:
 1. Political Bias:
     ```bash
     python ccnews_create_graph_clef.py golden_truth.output_file="PATH/TO/golden_truth_dataset-bias.csv"
