@@ -8,6 +8,7 @@ This is the repo accompanying the paper [_"Mapping the Media Landscape: Predicti
 ## :bookmark_tabs: Datasets
 
 ### 1. :bar_chart: Political Bias and Factual Reporting (paper)
+(🤗 [Available also as a Hugging Face dataset](https://huggingface.co/datasets/sergioburdisso/news_media_bias_and_factuality))
 
 The CSV file with the ground truth dataset described in the paper is located in [`data/mbfc.csv`](data/mbfc.csv). The CSV file contains, for each news media url domain, the factual reporting and political bias labels. The CSV structure is as shown in the following example:
 
