@@ -91,6 +91,8 @@ And then we use our ground truth rewards to compute the scores and perform the 5
 ---
 ## :speech_balloon: Citation
 
+If you found the paper and/or this repository useful, please consider citing our work: :blush::+1:
+
 ```bibtex
 @inproceedings{sanchez2024mapping,
   title={Mapping the media landscape: predicting factual reporting and political bias through web interactions},
@@ -119,3 +121,9 @@ And then we use our ground truth rewards to compute the scores and perform the 5
     pages = "6893--6911",
 }
 ```
+
+## :ticket: License
+
+Copyright (c) 2024 [Idiap Research Institute](https://www.idiap.ch/).
+
+Apache-2.0 License.
