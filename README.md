@@ -5,6 +5,9 @@
 
 This is the repo accompanying the paper [_"Mapping the Media Landscape: Predicting Factual Reporting and Political Bias Through Web Interactions"_](https://link.springer.com/chapter/10.1007/978-3-031-71736-9_7) (PDF version available [here](https://publications.idiap.ch/attachments/papers/2024/Sanchez-Cortes_CLEF2024_2024.pdf)).
 
+_( :point_right: You might also be interested in ["Reliability Estimation of News Media Sources: Birds of a Feather Flock Together"](https://github.com/idiap/News-Media-Reliability), presented at NAACL 2024)_
+
+
 ## :bookmark_tabs: Datasets
 
 ### 1. :bar_chart: Political Bias and Factual Reporting (paper)
